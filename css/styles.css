@@ -14,8 +14,9 @@ body {
     background-color: #1f2937;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     height: 48px;
+    gap: 39em;
 }
 .logo {
     font-size: 24px;
@@ -27,7 +28,7 @@ body {
     font-size: 18px;
     text-decoration: none;
     color: #e5e7eb;
-    padding-left: 2em;
+    padding-left: 1em;
 }
 /* Hero Section Styles ( personal note 1.556 edge of p)*/
 #hero {
@@ -35,12 +36,13 @@ body {
     background-color: #1f2937;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 19.5em;
 }
 .hero {
     width: 448px;
     height: 190px;
-    margin-bottom: 5em;
+    margin-bottom: 10em;
 }
 .hero-header {
     font-size: 48px;
@@ -53,6 +55,15 @@ body {
     color: #e5e7eb;
     font-weight: 300;
     margin-bottom: 0.4em;
+}
+.hero-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6d747d;
+    width: 448px;
+    height: 190px;
+    margin-bottom: 3.8em;
 }
 /* Info Section Styles */
 /* Testimonials Section Styles */
