@@ -107,6 +107,30 @@ body {
     border-radius: 20px;
     margin-bottom: 0.5em;
 }
-/* Testimonials Section Styles */
+/* Testimonials Section Styles 420px*/
+#testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 446px;
+    background-color: #e5e7eb;
+}
+
+blockquote {
+    width: 960px;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: -0.5em;
+}
+.testimonials-copy {
+    float: right;
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: 800;
+    margin-right: 4em;
+}
+
 /* Call to Action Section Styles */
 /* Footer Section Styles */
