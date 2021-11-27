@@ -76,6 +76,37 @@ body {
     font-weight: 600;
 }
 /* Info Section Styles */
+#info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 468px;
+}
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+}
+.info-card-container {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    color: #1f2937;
+    font-weight: 400;
+}
+.placeholder-card {
+    height: 170px;
+    width: 170px;
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+    margin-bottom: 0.5em;
+}
 /* Testimonials Section Styles */
 /* Call to Action Section Styles */
 /* Footer Section Styles */
