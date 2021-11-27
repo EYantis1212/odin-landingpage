@@ -16,8 +16,6 @@ body {
     align-items: center;
     justify-content: space-around;
     height: 48px;
-    margin: 0;
-    padding: 0;
 }
 .logo {
     font-size: 24px;
@@ -31,7 +29,31 @@ body {
     color: #e5e7eb;
     padding-left: 2em;
 }
-/* Welcome Section Styles */
+/* Hero Section Styles ( personal note 1.556 edge of p)*/
+#hero {
+    height: 448px;
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.hero {
+    width: 448px;
+    height: 190px;
+    margin-bottom: 5em;
+}
+.hero-header {
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: -0.4em;
+}
+.hero-info {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 300;
+    margin-bottom: 0.4em;
+}
 /* Info Section Styles */
 /* Testimonials Section Styles */
 /* Call to Action Section Styles */
