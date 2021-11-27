@@ -16,7 +16,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 48px;
-    gap: 39em;
+    gap: 24em;
 }
 .logo {
     font-size: 24px;
@@ -37,7 +37,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 19.5em;
+    gap: 4em;
 }
 .hero {
     width: 448px;
@@ -62,8 +62,18 @@ body {
     justify-content: center;
     background-color: #6d747d;
     width: 448px;
-    height: 190px;
-    margin-bottom: 3.8em;
+    height: 210px;
+    margin-bottom: 2.3em;
+}
+.hero-btn {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    width: 128px;
+    height: 36px;
+    font-size: 16px;
+    color: #f9faf8;
+    font-weight: 600;
 }
 /* Info Section Styles */
 /* Testimonials Section Styles */
