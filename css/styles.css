@@ -104,9 +104,12 @@ body {
     color: #1f2937;
     font-weight: 400;
 }
+figcaption {
+    width: 145px;
+}
 .placeholder-card {
-    height: 170px;
-    width: 170px;
+    height: 145px;
+    width: 145px;
     border: 5px solid #3882f6;
     border-radius: 20px;
     margin-bottom: 0.5em;
@@ -150,7 +153,6 @@ blockquote {
     width: 1000px;
     background-color: #3882f6;
     border-radius: 10px;
-    margin-right: 5em;
 }
 
 #call-header p {
@@ -181,3 +183,12 @@ blockquote {
 }
 
 /* Footer Section Styles */
+#footer {
+    text-align: center;
+    height: 100px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
+.footer {
+    margin-top: 2.5em;
+}
