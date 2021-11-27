@@ -1,17 +1,38 @@
-html {
-    font-family: "Roboto", sans-serif;
-    header: 0;
+html,
+body {
+    margin: 0;
     padding: 0;
+    font-family: "Roboto", sans-serif;
 }
 body {
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 100%;
 }
-/* Header ection Styles */
+/* Header Section Styles */
+#header {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 48px;
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    font-size: 24px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.links a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #e5e7eb;
+    padding-left: 2em;
+}
 /* Welcome Section Styles */
 /* Info Section Styles */
-/* Header Styles */
-/* Header Styles */
-/* Header Styles */
+/* Testimonials Section Styles */
+/* Call to Action Section Styles */
+/* Footer Section Styles */
