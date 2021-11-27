@@ -75,6 +75,10 @@ body {
     color: #f9faf8;
     font-weight: 600;
 }
+.hero-btn:hover {
+    background-color: #e5e7eb;
+    color: #3882f6;
+}
 /* Info Section Styles */
 #info {
     display: flex;
@@ -131,6 +135,49 @@ blockquote {
     font-weight: 800;
     margin-right: 4em;
 }
-
 /* Call to Action Section Styles */
+#call {
+    height: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.call {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 170px;
+    width: 1000px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    margin-right: 5em;
+}
+
+#call-header p {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 300;
+}
+.call-header {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 500;
+    margin-bottom: -0.5em;
+}
+#call-button {
+    background-color: #3882f6;
+    border: solid 2px #e5e7eb;
+    border-radius: 5px;
+    width: 128px;
+    height: 36px;
+    font-size: 16px;
+    color: #f9faf8;
+    font-weight: 600;
+}
+#call-button:hover {
+    background-color: #e5e7eb;
+    border: solid 2px #3882f6;
+    color: #3882f6;
+}
+
 /* Footer Section Styles */
